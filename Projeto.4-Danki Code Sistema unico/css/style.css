@@ -1,0 +1,442 @@
+/* RESET */
+*{
+    margin:0;
+    padding:0;
+    font-family: 'Open Sans';
+    box-sizing:border-box;
+}
+.clear{
+    clear: both;
+}
+html,body{
+    height:100%;
+}
+.container{
+    max-width:1280px;
+    margin:0 auto;
+}
+/* *** */
+
+/* HEADER */
+header{
+    padding:40px 2%;
+    width:100%;
+    height:80vh;
+    min-height:500px;
+    max-height:700px;
+    background-image:url(../images/background.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    font-weight:300;
+}
+div.logo{
+    position: relative;
+    top:-23px;
+    left:10px;
+    float:left;
+    background-image:url(../images/logo.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat:no-repeat;
+    width:160px;
+    height:40px;
+}
+/* Menu RAPIDO */
+nav.desktop-menu{
+    float:right;
+}
+.desktop-menu li{
+    float:left;
+    padding:0 20px;
+    list-style: none;
+}
+.desktop-menu a{
+    color:white;
+    text-decoration:none;
+}
+a.selected-menu{
+    font-weight: 700;
+    font-size:16px;
+}
+a.select-menu{
+    font-size:16px;
+}
+.mobile-menu{
+    cursor:pointer;
+    display:none;
+    float: right;
+    margin-top:-5px;
+    width:38px;
+    height:38px;
+    background-image: url(../images/menu.png);
+    background-position:center;
+    background-size: contain;
+}
+nav.mobile-menu:hover ul{
+    opacity:1;
+}
+nav.mobile-menu ul li:hover{
+    background-color: rgb(230,230,230);
+    transition: 0.5s;
+}
+.mobile-menu ul{
+    transition: 1s;
+    opacity:0;
+    background-color:white;
+    position: absolute;
+    width:100%;
+    left:0;
+    top:80px;
+    text-align:center;
+    list-style-type:none;
+}
+.mobile-menu ul li{
+    padding:8px 0;
+    border-bottom:1px solid black;
+}
+.mobile-menu a{
+        color:orange;
+        text-decoration:none;
+}
+/********/
+/* CHAMADA1 */
+.chamada1 h2{
+    color:white;
+    font-size:2.6em;
+    font-weight:300;
+}
+.chamada1 p{
+    color:white;
+    font-size:12px;
+    width:450px;
+    font-weight:300;
+}
+.chamada1{
+    position: relative;
+    top:55px;
+    right:90px;
+    float:right;
+}
+/* *** */
+
+/* FIM HEADER */
+
+/* CHAMADA2 */
+.chamada2{
+    background:#472663;
+    height:285px;
+    display:flex;
+}
+img.smartphone{
+    height:350px;
+    position: relative;
+    top:-65px;
+    right:80px;
+    float: right;
+}
+.chamada-container{
+    float:left;
+    color:white;
+    margin-left:70px;
+    position: relative;
+    top:37px;
+}
+.chamada-container h2{
+    font-weight:300;
+    font-size:28px;
+    margin-bottom:3px;
+}
+.chamada-container h3{
+    font-weight:400;
+    margin-top:2px;
+    font-size: 14px;
+}
+.chamada-container ul{
+    margin-left:20px;
+}
+.chamada-container li{
+    margin:2px 0;
+}
+.chamada-container li:nth-of-type(1){
+    margin-top:5px;
+}
+.chamada-container span{
+    margin-left:-7px;
+    font-size:14px;
+}
+.chamada-container button{ 
+    margin-top:12px;
+    border:0;
+    color:white;
+    background-color:#ff703e;
+    width:145px;
+    height:40px;
+    font-size:14px;
+    font-weight:500;
+    outline:0;
+    border-radius: 40px 40px 40px 40px;
+    -moz-border-radius: 40px 40px 40px 40px;
+    -webkit-border-radius: 40px 40px 40px 40px;
+    border: 0px solid #000000;
+    cursor: pointer;
+}
+/* ******* */
+
+/* dev-section */
+.dev-section{
+    height:auto;
+    margin-top:30px;
+    font-weight:300;
+    padding:50px 5%;
+    color: #472663;
+    text-align:center;
+}
+.dev-section div.container{
+    max-width:1000px;
+}
+.dev-section h2{
+    padding-top:-5px;
+    font-size:26px;
+    font-weight:300;
+}
+.dev-section p{
+    max-width: 800px;
+    display:inline-block;
+    padding-top:20px;
+    font-size:14px;
+}
+img.mockup-container{
+    width:100%;
+    margin-top:-170px;
+    position: relative;
+    top:230px;
+    -webkit-box-shadow: 0px 0px 29px -3px rgba(0,0,0,1);
+    -moz-box-shadow: 0px 0px 29px -3px rgba(0,0,0,1);
+    box-shadow: 0px 0px 29px -3px rgba(0,0,0,1);
+}
+/* **** */
+
+/* team-section */
+
+div.part1{
+    color: #fff;
+    float:left;
+    padding:220px 0 55px 0;
+    width:50%;
+    background-color:#835fa8;
+}
+div.part1 h2{
+    font-weight:300;
+    font-style:italic;
+    font-size:1.9em;
+}
+div.part1 p{
+    margin-top:8px;
+    font-weight:400;
+    line-height:26px;
+    font-size:1.17em;
+}
+div.wraper-part1{
+    max-width:530px;
+    float: right;
+    padding:0 30px;
+}
+div.part2{
+    float: right;
+    width:50%;
+    padding:220px 0 40px 0;
+    background-color:#fff;
+}
+div.sobre-author{
+    float:left;
+    max-width:600px;
+    padding-left:30px;
+    color:#232323;
+}
+div.author-name{
+    float:left;
+    width:100%;
+}
+div.wraper-author-name{
+    float:left;
+}
+div.author-name h2{
+    padding-right:18px;
+    font-size:2.2em;
+    font-weight:400;
+}
+div.author-name p{
+    position: relative;
+    top:-5px;
+    font-style:italic;
+    font-weight:400;
+    font-size:1em;
+}
+div.image-author{
+    position:relative;
+    top:4px;
+    float:left;
+    background:grey;
+    width:60px;
+    height:60px;
+    border-radius: 200px 200px 200px 200px;
+    -moz-border-radius: 200px 200px 200px 200px;
+    -webkit-border-radius: 200px 200px 200px 200px;
+    border: 0px solid #000000;
+    background-image:url(../images/Jujutsu-Kaisen-anime-1st-video-promo-alternate-version-screenshot-satoru-gojo.jpg);
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-position: center;
+}
+div.text-author{
+    width:100%;
+    float:left;
+    position: relative;
+    top:5px;
+    padding-right:30px;
+}
+div.text-author{
+    font-size:1.17em;
+    line-height:26px;
+}
+/* ***** */
+
+/* slider-bullets */
+.slider-bullets{
+    float:left;
+    width:100%;
+    padding-left:30px;
+    position: relative;
+    top:22px;
+}
+.slider-bullets span{
+    width:16px;
+    height:16px;
+    cursor: pointer;;
+    float:left;
+    margin-right:8px;
+    background-color:#aeaeae;
+    border-radius:8px;
+}
+
+/* ***** */
+
+/* section-contact */
+section.section-contact{
+    background:#472663;
+    width:100%;
+    padding: 100px 0;
+}
+div.form-contact{
+    padding:0 2%;
+    color:#fff;
+    float:left;
+    width:50%;
+    max-width:600px;
+}
+div.form-contact h2{
+    font-size:2em;
+    font-weight:300;
+}
+div.form-contact p{
+    margin-top:10px;
+    width:100%;
+    font-size:15px;
+}
+.form-contact input{
+    margin-bottom:10px;
+}
+.form-contact form{
+    font-weight:300;
+    margin-top:15px;
+}
+.form-contact input[type="text"],
+.form-contact input[type="email"]{
+    width:90%;
+    padding:15px 2%;
+    outline: none;
+    font-size:18px;
+}
+.form-contact textarea{
+    width:90%;
+    height:210px;
+    padding:10px 2%;
+    outline:none;
+    resize: none;
+    border:1px solid rgb(200,200,200);
+    font-size:18px;
+}
+.form-contact input[type="submit"]{
+    background-color:#ff703e;
+    width:130px;
+    height:50px;
+    position: relative;
+    top:5px;
+    left:5px;
+    margin-top:5px;
+    border-radius: 40px 40px 40px 40px;
+    -moz-border-radius: 40px 40px 40px 40px;
+    -webkit-border-radius: 40px 40px 40px 40px;
+    border: 0px solid #000000;
+    color:#fff;
+    font-size:18px;
+    outline:none;
+    cursor: pointer;
+}
+
+/* MAP-WRAPER */
+.map-wraper{
+    padding:0 2%;
+    width:50%;
+    float:left;
+    color:white;
+}
+.map-wraper h2{
+    font-size:2em;
+    font-weight:300;
+}
+
+.map{
+    left:0;
+    top:0;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background:white;
+    border: 5px solid #cccccc;
+}
+.map-wraper2{
+    width:100%;
+    margin-top:10px;
+    max-width:480px;
+    position: relative;
+}
+.map-wraper3{
+    position: absolute;
+    top:0;
+    left:0;
+    width:100%;
+    padding-top:100%;
+}
+
+/* f-map-wraper */
+/* f-section-contact */
+
+/* FOOTER */
+    .footer{
+        width:100%;
+        padding:50px 2%;
+        background-color:#1a2124;
+        color:white;
+        border-bottom:7px solid #111719;
+    }
+    .footer-p1{
+        float:left;
+        white-space: pre;
+    }
+    .footer-p2{
+        width:250px;
+        float: right;
+    }
+/* ***** */

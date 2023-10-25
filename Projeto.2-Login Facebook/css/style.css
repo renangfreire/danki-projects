@@ -1,0 +1,497 @@
+*{
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+	font-family: 'lato';
+	outline:0;
+}
+html, body{
+	height:100%;
+}
+.clear{
+	clear:both;
+}
+.center{
+	max-width:1100px;
+	padding:0 2%;	
+	margin:0 auto;
+}
+header.top{
+	background-color:#3c5b9a;
+	border-bottom:1px solid #29487d;
+	padding:8px 0;
+}
+/*
+.logo a, .logo h2{
+	position:relative;
+	top:2px;
+	left:0;
+	float:left;
+	color:white;
+	font-size:40px;
+	cursor:pointer;
+	text-decoration:none;
+}
+*/
+img.facebook-logo{
+	position:relative;
+	top:18px;
+	left:0;
+	float:left;
+	cursor:pointer;
+	width:250px;
+	height:auto;
+}
+form.form-login{
+	float:right;
+	padding:3px;
+}
+.form-login .form-element{
+	display:inline-block;
+	font-size:14px;
+	margin-right:15px;
+	margin-top:8px;
+}
+.form-element p{
+	color:white;
+	font-size:14px;
+}
+.form-element input[type="email"],
+.form-element input[type="password"]{
+	margin-top:4px;
+	height:24px;
+	padding-left:3px;
+	font-size:18px;
+	border:0;
+}
+.form-element input[type="submit"]{
+	cursor:pointer;
+	background:#4267b2;
+	border:1px solid #215ab2;
+	color:white;
+	padding:5px 7px;
+}
+.form-element input[type="submit"]:hover{
+	background:#215ab2;
+}
+.forgot{
+	position:relative;
+	top:1px;
+	right:164px;
+	text-align:right;
+	font-size:14px;
+	cursor:pointer;
+	color:rgb(240,240,240);
+}
+section.main{
+	background:linear-gradient(white,#D3D8E8);
+	padding:40px 0;
+}
+.img-human{
+	width:60%;
+	max-width:650px;
+	float:left;
+}
+.img-human h2{
+	position:relative;
+	top:0;
+	left:15px;
+	font-size:21px;
+	text-align:justify;
+	width:80%;
+	color:#203963;
+}
+.img-human img{
+	margin-top:8px;
+	max-width:100%;
+}
+div.abra-conta{
+	width:40%;
+	float:left;
+}
+.form-create{
+	width:100%;
+	height:100%;
+}
+.abra-conta h2{
+	font-size:32px;
+	color:black;
+}
+.abra-conta > h3{
+	font-size:21px;
+	position:relative;
+	top:0;
+	font-weight:normal;
+	left:-4px;
+	margin-top:8px;
+	color:rgb(20,20,20);
+}
+form.form-create{
+	margin-top:14px;
+	position:relative;
+	top:0;
+	left:-1px;
+}
+.w50{
+	padding:1px 3px;
+	float:left;
+	width:50%;
+}
+.w100{
+	padding:1px 3px;
+	float:left;
+	width:100%;
+}
+form.form-create input{
+	width:100%;
+	margin-top:5px;
+}
+form.form-create input[type="text"],
+form.form-create input[type="email"],
+form.form-create input[type="password"]{
+	height:40px;
+	padding-left:10px;
+	font-size:21px;
+	border:1px solid #ccd0d5;
+	border-radius:4px;
+}
+form.form-create input[type="submit"]{
+	height:40px;
+	background: linear-gradient(#67ae55, #578843);
+	color:white;
+	max-width:200px;
+	cursor:pointer;
+	border:1px solid #ccd0d5;
+	border-radius:6px;
+	font-size:18px;
+	position:relative;
+	top:2px;
+	left:4px;
+}
+.margin50px{
+	margin-top:23px;
+}
+div.abra-conta{
+	height:100%;
+}
+div.crie-pagina h2{
+	padding:4px 0;
+	margin-top:5%;
+	font-size:14px;
+	color:#777;
+}
+div.crie-pagina a{
+	text-decoration:none;
+	color:#385898;
+}
+p.politica{
+	margin-top:2px;
+	padding:15px 0;
+	width:100% !important;
+	font-size:13px;
+	color:#777;
+}
+p.politica a{
+	text-decoration:none;
+	color:#385898;
+}
+form .w100 > h2{
+	color:#90949c;
+	margin-top:11px;
+	font-size:23px;
+	font-weight:normal;
+}
+div.amy{
+	width:100%;
+	display:inline-block;
+	margin-right:-4px;
+}
+form select.nascimento{
+	float:left;
+	margin-top:7px;
+	width: 20%;
+	height:30px;
+	font-size:15px;
+	margin-right:3px;
+	padding:0 2px;
+}
+.input-radio{
+	width:33.3%;
+	float:left;
+}
+div.optionssex{
+	margin-top:5px;
+} 
+.input-radio input[type="radio"]{
+	width: auto !important;
+	padding:2px;
+}
+.input-radio h2{
+	display:inline-block;
+	color:#1d2129;
+	margin-top:9px;
+	font-size:19px;
+	font-weight:normal;
+}
+div.gnw100 h2{
+	color:#90949c;
+	margin-top:10px;
+	font-size:23px;
+	font-weight:normal;
+}
+section.linguas{
+	padding:30px 0;
+	background:white;
+}
+section.linguas a{
+	font-size:12px;
+	padding-right:10px;
+	color:#365899;
+	text-decoration:none;
+}
+section.linguas a.selected-lingua{
+	color:#737373;
+}
+section.linguas .center{
+	padding-right:8px;
+	padding-left:8px;
+	padding-bottom:10px;
+	border-bottom:1px solid #dddfe2;
+}
+.maislingua{
+	border:1px solid rgb(200,200,200);
+	width:10px;	
+	height:10px;
+	position:relative;
+	top:0;
+	left:1px;
+	padding:0px 3px;
+	background-image:url("../images/negodrama.png");
+	background-size:10px 10px;
+	background-position:60%;
+	background-repeat:no-repeat;
+
+}
+div.ult-infos{
+	width:99%;
+	border:0;
+	padding-top:10px;
+}
+p.name-c{
+	font-size:12px;
+	color:#365899;
+	padding-top:20px;
+}
+@media screen and (max-width:1024px){
+	header.top{
+		width:100%;
+	}
+	p.politica{
+		font-size:80%;
+		text-align:justify;
+	}
+	.input-radio{
+	margin:0;
+	float:left;
+	}
+	div.input-radio{
+		width:33.3%;
+		position:static;
+		top:0;
+		left:0;
+	}
+	div.crie-pagina{
+	position:static;
+	top:0;
+	left:0px;
+	}
+	.input-radio input[type="radio"],
+	div.input-radio h2{
+		font-size:17px;
+		padding:2px;
+		width:33.3%;
+
+	}
+	.img-human{
+		width:60%;
+		max-width:500px;
+		float:left;
+	}
+	.img-human img{
+		margin-top:8px;
+		max-width:100%;
+	}
+	section.main{
+	padding:20px 0;
+	height:100%;
+}
+
+}
+@media screen and (max-width:970px){
+	div.sx50{
+		margin-left:-40px;
+	}
+	div.input-radio{
+		width:50%;
+	}
+}
+
+@media screen and (max-width:768px){
+	div.sx50{
+		margin-left:-0px;
+	}
+	div.logo{
+		position:relative;
+		top:-10px;
+		text-align:center;
+		margin:2px auto;
+		max-width:280px;
+		float:none;
+	}
+	div.logo > a > img{
+		width:100%;
+		text-align:center;
+		margin:0 auto;
+	}
+	img.facebook-logo{
+		width:150%;
+		max-width:280px;
+		text-align:center;
+		margin:0px auto;
+	}
+	div.form-element{
+		text-align:center;
+	}
+	.form-login{
+		float:none;
+		margin-top:11px;
+		width:100%;
+		height:100%;
+		text-align:center;
+		display:justify;
+	}
+	.form-login .form-element{
+	display:inline-block;
+	font-size:16px;
+	margin:0;
+	margin-top:7px;
+	}
+	.form-element p{
+		font-size:18px;
+	}
+	.form-element input[type="email"],
+	.form-element input[type="password"]{
+	height:32px;
+	width:65%;
+	padding-left:4px;
+	font-size:19px;
+	border:0;
+	}
+	div.form-element input[type="submit"]{
+		margin-top:8px;
+		margin-bottom:4px;
+	}
+	
+	form .fl50{
+		width:100%;
+	}
+	form .fl100{
+		width:100%;
+	}
+	form .fl100 input{
+		width:200px;
+		height:50px;
+		text-align:center;
+		font-size:18px;
+		font-weight:bold;
+	}
+	.forgot{
+		text-align:center;
+		position:static;
+		top:0;
+		left:0;
+		font-size:17px;
+		font-weight:normal;
+	}
+	div.img-human{
+		width:100%;
+		max-width:675px;
+		margin:0 auto;
+		text-align:center;
+		float:none;
+	}
+	.img-human h2{
+		position:static;
+		font-size:20px;
+		margin-left:auto;
+		margin-right:auto;
+		width:80%;
+	}
+	.img-human img{
+		width:97%;
+		max-width:650px;
+	}
+	div.abra-conta{
+		width:100%;
+		margin:0 auto;
+	}
+	div.abra-conta h2{
+		text-align:center;
+	}
+	div.abra-conta h3{
+		text-align:center;
+	}
+	div.datanascimento{
+		width:100%;
+		text-align:center;
+	}
+	form select.nascimento{
+		float:none;
+		width: 30%;
+		height:40px;
+		font-size:18px;
+		margin:15px 5px 5px 0;
+	}
+	div.input-radio{
+		text-align:center;
+		width:33.3%;
+		float:left;
+		margin:0;
+	}
+	div.sx550{
+		margin-left:-18px;
+	}
+	div.input-radio h2{
+		font-size:100%;
+	}
+	div.cadasenviar{
+		text-align:center;
+	}
+	form.form-create input[type="submit"]{
+		height:45px;
+		max-width:240px;
+		position:static;
+	}
+}
+@media screen and (max-width:400px){
+	div.input-radio{
+		width:100%;
+		float:none;
+	}
+	div.sx550{
+		margin-left:0px;
+	}
+	div.input-radio h2{
+		font-size:20px;
+	}
+	div.logo{
+		position:static;
+		margin:2px auto;
+		width:100%;
+	}
+	div.logo > a > img{
+		width:100%;
+		text-align:center;
+		margin:0 auto;
+	}
+}

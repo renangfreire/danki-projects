@@ -1,0 +1,279 @@
+*{
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+	font-family:"Open Sans";
+}
+html,body{
+	height:100%;
+}
+@font-face{
+	src:url('../fonts/opensans-light.ttf');
+	font-family:"Open Sans";
+}
+.center{
+	width:100%;
+	margin:0 auto;
+	max-width:1280px;
+}
+.clear{
+	clear:both;
+}
+/*INICIO HEADER*/
+.header{
+	padding:0 2%;
+	width:100%;
+	height:60px;
+	background-color:#212343;
+}
+.header img{
+	margin:15px;
+	width:180px;
+}
+/*FIM HEADER*/
+
+/*INICIO MEIO*/
+.container-banner{
+	padding:0 2%;
+	background-image:url('../images/header_bg.png');
+	width:100%;
+	height:557px;
+	background-position:center;
+	background-size:cover;
+}
+.container-banner > .center{
+	height:100%;
+}
+/*FIM MEIO*/
+
+/*Inc.BOX*/
+.container-box{
+	padding:0 2%;
+	 margin-top:100px;
+	background-color:rgba(33,35,67,0.7);
+	width:589px;
+	height:270px;
+	float:left;
+	padding:30px;
+}
+.container-box ul{
+	list-style-position:inside;
+}
+.container-box li{
+	color:white;
+	margin-top:15px;
+	font-size:18px;
+}
+/*FIM BOX*/
+
+/*INICIO FORM*/
+.form{
+	width:400px;
+	height:calc(100% + 30px);
+	position:relative;
+	padding:20px;
+	top:-15px;
+	border:8px solid rgba(110,110,110,0.7);
+	background-clip:padding-box;
+	/*background-origin tem o msm conceito mas para imagens*/
+	background-color:white;
+	float:right;
+}
+.prns h2{
+	margin:-5px 0;
+	text-align:justify;
+}
+
+.form h2{
+	color:#999999;
+	font-size:21px;
+	font-weight:normal;
+	}
+.input-container{
+	margin-top:20px;
+}
+.input-container span,.form p{
+	font-size:19px;
+	display:inline-block;
+	color:#BBBBBB;
+	width:100%;
+}
+.form p{
+	margin:20px 0 ;
+	font-size:20px;
+}
+.input-container input[type="text"]{
+	margin-top:8px;
+	width:344px;
+	height:55px;
+	padding:8px 10px;
+	border:1px solid #ccc;
+}
+.input-container input[type="text"]:focus{
+	outline:0;
+}
+.form .input-submit-container{
+	text-align:center;
+}
+.form input[type="submit"]{
+	margin-top:10px;
+	background-color:#363a6d;
+	width:280px;
+	height:56px;
+	font-size:25px;
+	color:white;
+	display:inline-block;
+	border-top:0;
+	border-left:0;
+	border-right:0;
+	border-bottom:5px solid #4a5097;
+	cursor:pointer;
+}
+.form input[type="submit"]:hover{
+	background-color:#323665;
+}
+/*FIM FORM*/
+
+/*Inc.SObre*/
+.sobre{
+	padding:40px 2%;
+	background-color:rgb(215,215,215);
+	text-align:center;
+	font-size:18px;
+
+}
+.sobre h2{
+	font-weight:normal;
+}
+.sobre p{
+	width:100%;
+	max-width:768px;
+	display:inline-block;
+	text-align:justify;
+	margin:15px 0;
+}
+/*Image*/
+.arrow{
+	position:relative;
+	background-image:url('../images/arrow.png');
+	width:40px;
+	left:50%;
+	top:60px;
+	height:40px;
+	background-size:100% 100%;
+	margin-left:-20px;
+}
+/*Inc.Seção Mercado*/
+.section-mkt{
+	padding:90px 0;
+}
+.section-mkt h2{
+	text-align:center;
+	color:#462663;
+	font-weight:normal;
+
+}
+.container-section{
+	margin-top:40px;
+	text-align:center;
+}
+.sec-single{
+	float:left;
+	width:33.3%;
+	padding:30px;
+}
+.sec-single img{
+	width:70px;
+}
+.sec-single p{
+	padding:10px;
+	display:inline-block;
+	font-size:18px;
+}
+.footer{
+	/*clear:both;*/
+	border-top:4px solid #888888;
+	padding:40px 2%;
+	text-align:center;
+
+}
+.insta{
+	width:220px;
+	height:110px;
+}
+@media screen and (max-width:1024px){
+	.header{
+	padding:15px 0;
+	width:100%;
+	height:auto;
+	text-align:center;
+	}
+
+	.header a{
+		margin:0;
+	}
+	.header img{
+		max-width:180px;
+		width:70%;
+	}
+
+	.container-banner{
+	padding:40px 2%;
+	width:100%;
+	height:auto;
+	text-align:center;
+}
+	.form{
+	max-width:400px;
+	width:60%;
+	height:100%; 
+	padding:10px;
+	top:0;
+	float:right;
+}
+	.container-box{
+	padding:30px 0;
+	width:40%;
+	height:auto;
+	float:left;
+}
+.input-container input[type="text"]{
+	width:100%;
+	height:55px;
+}
+.form input[type="submit"]{
+	max-width:280px; 
+	width:100%;
+	height:56px;
+}
+}
+@media screen and (max-width:768px){
+	.sobre{
+		padding-right:4%;
+		padding-left:4%;
+	}
+	.container-box{
+		margin-top:0;
+		display:inline-block;
+		float:none;
+		width:100%
+	}
+	.form{
+		display:inline-block;
+		float:none;
+		width:100%;
+		margin-top:30px;
+	}
+	.sec-single{
+	float:none;
+	width:100%;
+	padding:30px 0;
+	display:inline-block;
+	max-width: 500px;
+}
+.insta{
+	width:35%;
+	height:auto;
+	max-width:220px;
+}
+}

@@ -1,0 +1,17 @@
+@keyframes entrada{
+	from{width:0;
+		height:0;}
+	to{width:65px;
+		height:65px;}
+}
+@keyframes chamada_size{
+	from{height:0;
+		background-color:#ffffff;
+		}
+	to{height:179px;
+	background-color:#ffffff;}
+}
+@keyframes chamada_opacity{
+	0%{opacity:0;}
+	100%{opacity:0;}
+}

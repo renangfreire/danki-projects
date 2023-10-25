@@ -1,0 +1,332 @@
+/* DOCUMENTO RESPONSIVO */
+@media screen and (min-width: 1024px){
+    .chamada1 p{
+        font-size:0.9em;
+    }
+    .chamada1 h2{
+        font-size:2.8em;
+    }
+    .dev-section p{
+        font-size:1.1em;
+    }
+    .dev-section h2{
+        font-size:2em;
+    }
+    .map-wraper{
+        padding:0 2% 0 50px;
+    }
+}
+@media screen and (max-width: 910px){
+    img.smartphone{
+        width:50%;
+        margin-right:20px;
+        margin-top:-65px;
+        position: static;
+        height:365px;
+        float: right;
+    }
+    header{
+        height:90vh;
+     }
+    .chamada-container{
+        float:left;
+        color:white;
+        margin-left:70px;
+        position: relative;
+        top:10px;
+        width:37%;
+    }
+    .chamada2{
+        background:#472663;
+        height:300px;
+        display:block;
+    }
+    a.selected-menu{
+        font-weight:300;
+    }
+    a.select-menu{
+        font-weight:300;
+    }
+    
+}
+@media screen and (max-width: 880px){
+    .section-contact{
+        text-align:center;
+
+    }
+    div.form-contact{
+        width: 100%;
+        display:inline-block;
+        float:none;
+        max-width: 800px;
+    }
+    .map-wraper{
+        width:100%;
+        float: none;
+        display: inline-block;
+        padding:0 8%;
+        margin-top:40px;
+    }
+    .map-wraper2{
+        max-width:100%;
+        padding-top:100%;
+    }
+    .map-wraper3{
+        position: absolute;
+        padding-top:0;
+        height:100%;
+    }
+    .form-contact input[type="submit"]{
+        width:200px;
+        top:10px;
+        height:65px;
+        font-size:21px;
+    }
+    div.form-contact p{
+        width:100%;
+        padding:0;
+        margin:0 auto;
+        max-width:580px;
+    }
+    section.section-contact{
+        background:#472663;
+        width:100%;
+        padding: 100px 0;
+    }
+    div.form-contact{
+        padding:0 8%;
+
+    }
+    div.form-contact h2{
+        position: relative;
+        top: -15px;
+        font-size:2.6em;
+    }
+    div.form-contact p{
+        font-size:19px;
+        margin-bottom: 25px;
+    }
+    .form-contact input[type="text"],
+    .form-contact input[type="email"]{
+        width:100%;
+        padding:15px 2%; 
+        font-size: 22px;
+    }
+    .form-contact textarea{
+    width:100%;
+    font-size:22px;
+    padding:10px 2%;
+    }
+    .map-wraper h2{
+        font-size:2.6em;
+    }
+}
+@media screen and (max-width: 768px){
+    .mobile-menu{
+        display:block;
+    }
+    .desktop-menu{
+        display:none;
+    }
+    .chamada1{
+        margin-top:30px;
+        position: static;
+        float:none;
+        padding:80px 30px;
+    }
+    .chamada1 h2{
+        font-size:2.4em;
+    }
+    img.smartphone{
+       display:none;
+       position: static;;
+    }
+    .chamada2{
+        background:#472663;
+        height:360px;
+        display:block;
+    }
+    .chamada-container{
+        float:none;
+        position: relative;;
+        top: 37px;
+        left:0;
+        margin:0 auto;
+        width:50%;
+    }
+    .chamada-container h2{
+        margin-bottom:9px;
+    }
+    .button{
+        margin-top:5px;
+    }
+    .chamada-container li{
+        margin:3px 0;
+    }
+    .chamada-container li:nth-of-type(1){
+        margin-top:7px;
+    }
+    .chamada-container span{
+        font-size:16px;
+        font-weight:300;
+    }.dev-section{
+        padding:50px 1%;
+    }
+    .footer-texts{
+        text-align:center;
+        font-size:18px;
+    }
+    .footer-p1{
+        float:none;
+        margin-bottom:5px;
+        width:100%;
+    }
+    .footer-p2{
+        float:none;
+        width:100%;
+    }
+}
+@media screen and (max-width: 670px){
+    img.mockup-container{
+        width:100%;
+        margin-top:-111px;
+        position: relative;
+        top:131px;
+    }
+    div.part1{
+        padding:110px 0 60px 0;
+        width:100%;
+    }
+    div.part1 h2{
+        font-size:2.3em;
+    }
+    div.part1 p{
+        line-height:27px;
+        font-size:1.2em;
+    }
+    div.author-name h2{
+        padding-right:22px;
+        font-size:2.3em;
+    }
+    div.author-name p{
+        position: relative;
+        top:-5px;
+        font-size:1.12em;
+    }
+    div.text-author{
+        font-size:1.2em;
+        line-height:28px;
+    }
+    div.wraper-part1{
+        max-width:800px;
+        margin:0 auto;
+    }
+    div.part2{
+        width:100%;
+        padding:50px 0 60px 0;
+    }
+    div.sobre-author{
+        float:none;
+        margin:0 auto;
+        max-width:800px;
+        padding:0 30px;
+        color:#232323;
+    }
+    div.image-author{
+        width:70px;
+        height:70px;
+  }
+  .slider-bullets{
+    padding-left:31px;
+    top:20px;
+}
+}
+@media screen and (max-width: 600px){
+    header{
+       height:auto;
+       min-height:90vh;
+    }
+    a.selected-menu{
+        font-weight:300;
+        font-size:21px;
+    }
+    a.select-menu{
+        font-weight:300;
+        font-size:21px;
+    }
+    nav.menu{
+        float: none;
+        width:88%;
+        margin:0 auto;
+    }
+    .chamada1 h2{
+        font-size:2.3em;
+    }
+    .chamada1 p{
+        font-size:13px;
+        width:84%;
+    }
+    .chamada1{
+        width:100%;
+        padding:80px 20px;
+        margin:0px auto;
+        position: static;
+        margin-top: 20px;
+        float:none;
+    }
+    .chamada2{
+        height:400px;
+        min-height:auto;
+    }
+    .chamada-container{
+        padding:5px 20%;
+        width:100%;
+    }
+}
+@media screen and (max-width: 450px){
+    p.footer-p1{
+        white-space: normal;
+    }
+}
+@media screen and (max-width: 370px){
+    div.part1 h2{
+        text-align:center;
+    }
+    .chamada-container{
+        padding:0 2%;
+        width:100%;
+    }
+    div.part1 p{
+        width:100%;
+        padding:0;
+    }
+    div.sobre-author{
+        padding:0 20px;
+    }
+    div.wraper-author-name{
+        float: none;
+    }
+    div.author-name{
+        text-align: center;
+    }
+    div.author-name h2{
+        padding-right:0px;
+        font-size:2.2em;
+        font-weight:400;
+    }
+    div.image-author{
+        width:80px;
+        height:80px;
+        margin:0 auto;
+        display: inline-block;
+        float:none;
+  }
+  div.image-media-360px{
+    text-align: center;
+    width:100%;
+  }
+  div.text-author{
+    width:100%;
+    padding:0;
+  }
+}
